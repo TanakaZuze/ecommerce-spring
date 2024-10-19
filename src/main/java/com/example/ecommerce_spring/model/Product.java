@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.Date;
-
+//This is a database.Class role is database
 //entity annotation to turn into ORM
 @Entity
 //annotation for Lombok
@@ -18,6 +18,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
+//    table columns
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
